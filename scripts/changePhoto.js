@@ -1,14 +1,14 @@
 var imgArray = new Array();
 imgArray[0] = new Image();
-imgArray[0].src = 'C:/work/gitweb/img/i1.jpg';
+imgArray[0].src = 'img/i1.jpg';
 imgArray[1] = new Image();
-imgArray[1].src = 'C:/work/gitweb/img/i2.png';
+imgArray[1].src = 'img/i2.png';
 imgArray[2] = new Image();
-imgArray[2].src = 'C:/work/gitweb/img/i3.png';
+imgArray[2].src = 'img/i3.png';
 
 var i = document.getElementsByClassName("imageBlock1")[0];
-i.style.background = "url('C:/work/gitweb/img/i1.jpg')";
-i.style.backgroundSize = "100% 100%";
+i.style.background = "url(" + imgArray[0].src + ")";
+i.style.backgroundSize = "100% 100%"
 
 var curIndex = 0;
 
