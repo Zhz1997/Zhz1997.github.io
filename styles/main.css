@@ -1,0 +1,80 @@
+.b{
+  height:auto;
+}
+#companyName{
+  color: White;
+  background-image: url('../img/sun.png');
+  background-size: cover;
+  height:10vh;
+  font-size:7vh;
+  margin: 0;
+}
+.customLinks{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.customBrand{
+  border-style: solid;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.toRight{
+  left=0;
+}
+
+.fadeInAn{
+  transition: background-color 0.5s;
+}
+div.bodyContent{
+  height:auto;
+  background-color: blue;
+}
+div.firstBlock{
+  height:70vh;
+  background-image: url('../img/background1.jpeg');
+  background-size: cover;
+}
+div.wordsBlock{
+  height:100%;
+  width:30%;
+  background-color:white;
+  float: left;
+}
+div.imageBlock1{
+  height:100%;
+  width:30%;
+  background-color:green;
+  float:left;
+  margin-left:5%;
+}
+div.imageBlock2{
+  height:100%;
+  width:30%;
+  background-color:yellow;
+  float:right;
+}
+div.leftArrow{
+  height:10%;
+  width:10%;
+  float:left;
+  margin-top: 46%;
+  margin-bottom: 46%;
+  background-color: white;
+  opacity: 0.5;
+}
+
+div.rightArrow{
+  height:10%;
+  width:10%;
+  float:right;
+  margin-top: 46%;
+  margin-bottom: 46%;
+  background-color: white;
+  opacity: 0.5;
+  text-align: right;
+}
+img.i1{
+  max-width:98.7vw;
+  height:auto;
+  width:auto;
+}
