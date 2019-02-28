@@ -52,14 +52,13 @@ div.wordsBlock{
 div.imageBlock1{
   position: absolute;
   top: 0;
-  left:30%;
+  left:35%;
   bottom: 0;
   right: 0;
   height: 100%;
   width:30%;
   background-color:green;
   float:left;
-  margin-left:5%;
 
 }
 div.imageBlock2{
