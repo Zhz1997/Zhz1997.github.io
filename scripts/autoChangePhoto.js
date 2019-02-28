@@ -7,9 +7,8 @@ imgArray[2] = new Image();
 imgArray[2].src = '../img/i3.png';
 
 
-var ini = document.getElementsByClassName("imageBlock2")[0];
-ini.style.background = "url(" + imgArray[0].src + ")";
-ini.style.backgroundSize = "100% 100%"
+var ini = document.getElementsByClassName("im2")[0];
+ini.src = imgArray[0].src;
 
 
 var start = 1;
@@ -19,9 +18,8 @@ function callChangePhoto(){
 }
 
 function changePhoto(){
-  var x = document.getElementsByClassName("imageBlock2")[0];
-  x.style.background = "url(" + imgArray[start].src + ")";
-  x.style.backgroundSize = "100% 100%"
+  var x = document.getElementsByClassName("im2")[0]
+  x.src = imgArray[start].src;
   //console.log(imgArray[start]);
   if(start==2){
     start = 0;
