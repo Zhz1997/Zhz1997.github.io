@@ -1,25 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid nav-wrapper">
         <span class="navbar-brand name">ANTHONY ZHANG</span>
-        <button class="navbar-toggler" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/about">About</a>
+                    <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/education">Education</a>
+                    <a class="nav-link" [routerLink]="['/education']" routerLinkActive="active">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/experience">Experience</a>
+                    <a class="nav-link" [routerLink]="['/experience']" routerLinkActive="active">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/project">Project</a>
+                    <a class="nav-link" [routerLink]="['/project']" routerLinkActive="active">Project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/contact">Contact</a>
+                    <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
                 </li>
             </ul>
         </div>

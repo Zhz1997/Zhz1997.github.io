@@ -3,5 +3,17 @@ nav {
 }
 
 .name {
-    padding-left: 2rem;
+  margin-left: 2rem;
+}
+
+.nav-item{
+  margin-right: 5rem;
+  /* background-color:gainsboro; */
+}
+.nav-item:hover {
+  text-shadow:0px 0px 1px gray;
+}
+
+a.active {
+  text-shadow:0px 0px 1px black !important;
 }
